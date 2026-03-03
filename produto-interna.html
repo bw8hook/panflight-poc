@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Interna (Blueprint) - Panflight</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (Blueprint) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">PANFLIGHT </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto small fw-bold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="produto-interna.html">Produto interna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="engenharia.html">Engenharia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="institucional.html">Institucional</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="row g-4">
+            <!-- Esquerda -->
+            <div class="col-lg-6">
+                <div class="placeholder-img" style="height: 400px;">[Imagem Principal / Visualizador 3D Future]</div>
+                <div class="row g-2">
+                    <div class="col-3"><div class="placeholder-img" style="height: 60px;">[Galeria 1]</div></div>
+                    <div class="col-3"><div class="placeholder-img" style="height: 60px;">[Galeria 2]</div></div>
+                    <div class="col-3"><div class="placeholder-img" style="height: 60px;">[Galeria 3]</div></div>
+                </div>
+            </div>
+
+            <!-- Direita -->
+            <div class="col-lg-6">
+                <div class="p-4 border">
+                    <h1 class="h2 fw-bold">Sensor de Pressão PF-8820-S</h1>
+                    <p class="small text-muted mb-2"><strong>Código:</strong> SKU: PF-8820-S</p>
+                    <p class="small mb-3"><strong>Aplicações compatíveis:</strong> John Deere / Case / Caterpillar</p>
+                    
+                    <div class="bg-light p-3 mb-4">
+                        <h6 class="fw-bold">Destaque técnico:</h6>
+                        <ul class="small mb-0">
+                            <li>±0.5% Precisão</li>
+                            <li>Corpo em Aço Inoxidável</li>
+                        </ul>
+                    </div>
+
+                    <p class="small mb-2 fw-bold">Status: <span class="text-success">Em estoque</span></p>
+
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-cart-main py-3">Adicionar ao Carrinho</button>
+                        <div class="row g-2">
+                            <div class="col-6"><button class="btn btn-amazon w-100 py-3">Amazon</button></div>
+                            <div class="col-6"><button class="btn btn-mercadolivre w-100 py-3">Mercado Livre</button></div>
+                        </div>
+                        <button class="btn btn-quote py-3">Solicitar cotação (OEM)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Abaixo -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h4 class="mb-3">Especificações Técnicas</h4>
+                <table class="table spec-table">
+                    <tr><th>Faixa de Pressão</th><td>0 - 600 Bar</td></tr>
+                    <tr><th>Sinal Saída</th><td>4-20mA / CAN</td></tr>
+                </table>
+
+                <h4 class="mt-5 mb-3">Downloads</h4>
+                <div class="row g-3">
+                    <div class="col-md-4"><div class="border p-3 d-flex justify-content-between align-items-center">Manual PDF <button class="btn border btn-sm">PDF</button></div></div>
+                    <div class="col-md-4"><div class="border p-3 d-flex justify-content-between align-items-center">Ficha Técnica <button class="btn border btn-sm">PDF</button></div></div>
+                </div>
+
+                <h4 class="mt-5 mb-3">Aplicações Compatíveis (Detalhado)</h4>
+                <p class="small text-muted">John Deere S660, Case IH 7230, Caterpillar Lexion 700 Series...</p>
+
+                <h4 class="mt-5 mb-3">Produtos Relacionados</h4>
+                <div class="row g-3">
+                    <div class="col-md-2"><div class="border p-3">Sensor Temp</div></div>
+                    <div class="col-md-2"><div class="border p-3">Adaptador</div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-5 text-center border-top mt-5">
+        <p class="text-muted mb-0">PANFLIGHT Blueprint Footer</p>
+    </footer>
+
+</body>
+</html>

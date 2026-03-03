@@ -1,0 +1,121 @@
+/* Blueprint Style - Minimalist & Structural */
+:root {
+    --blueprint-border: #dee2e6;
+    --blueprint-placeholder: #f8f9fa;
+    --blueprint-text: #212529;
+    --blueprint-accent: #0d6efd;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--blueprint-text);
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+section {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--blueprint-border);
+}
+
+.placeholder-img {
+    background-color: var(--blueprint-placeholder);
+    border: 2px dashed var(--blueprint-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    min-height: 200px;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid var(--blueprint-border);
+    border-radius: 0;
+    box-shadow: none !important;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* Navigation Blueprint */
+.navbar {
+    border-bottom: 1px solid var(--blueprint-border);
+    background-color: #fff !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #000 !important;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+}
+
+/* Grid & Layout Markers */
+.blueprint-box {
+    border: 1px solid var(--blueprint-border);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-section {
+    padding: 80px 0;
+    background-color: #fdfdfd;
+    border-bottom: 2px solid #000;
+}
+
+/* Product Specifics */
+.product-card {
+    padding: 15px;
+    border: 1px solid var(--blueprint-border);
+}
+
+.sidebar-filter {
+    border: 1px solid var(--blueprint-border);
+    padding: 15px;
+}
+
+.spec-table {
+    border: 1px solid var(--blueprint-border);
+}
+
+.spec-table th,
+.spec-table td {
+    border: 1px solid var(--blueprint-border);
+    padding: 8px;
+}
+
+/* Steps */
+.step-item {
+    border: 1px solid var(--blueprint-border);
+    padding: 20px;
+}
+
+.step-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--blueprint-border);
+    margin-bottom: 10px;
+}
+
+/* Marketplace buttons - keep minimal */
+.btn-amazon,
+.btn-mercadolivre,
+.btn-cart-main,
+.btn-primary-custom,
+.btn-accent-custom,
+.btn-quote {
+    background: #eee;
+    color: #000 !important;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+}
